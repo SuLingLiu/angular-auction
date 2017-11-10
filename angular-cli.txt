@@ -1,0 +1,44 @@
+卷 Local Disk 的文件夹 PATH 列表
+卷序列号为 12E0-BA86
+D:.
+│  .angular-cli.json （anglar的配置文件）
+│  .editorconfig （webstrom的一个配置文件）
+│  .gitignore	（git的配置文件）
+│  angular-cli.txt
+│  karma.conf.js （测试的一个配置文件）
+│  package.json （npm配置文件）
+│  protractor.conf.js 
+│  README.md
+│  tsconfig.json
+│  tslint.json （typescript检查配置文件）
+│  
+├─e2e 	（端到端的测试目录，包含基本的测试端，用来做自动化测试）
+│      app.e2e-spec.ts
+│      app.po.ts
+│      tsconfig.e2e.json
+│      
+└─src （应用源代码目录）
+    │  favicon.ico
+    │  index.html
+    │  main.ts （脚本执行入口文件）
+    │  polyfills.ts （导入一些库，使angular运行在老版本浏览器）
+    │  styles.css （放应用全局的样式）
+    │  test.ts
+    │  tsconfig.app.json
+    │  tsconfig.spec.json
+    │  typings.d.ts
+    │  
+    ├─app
+    │      app.component.css
+    │      app.component.html
+    │      app.component.spec.ts
+    │      app.component.ts
+    │      app.module.ts
+    │      
+    ├─assets （静态资源文件）
+    │      .gitkeep
+    │      
+    └─environments （环境配置）
+            environment.prod.ts
+            environment.ts
+            
